@@ -6,9 +6,9 @@ Built for the Ruby Capstone project in the Microverse curriculum.
 
 This project includes the following features:
 
-1- Scrapes the [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
-2- Collects the latest data on the Covid-19 death toll
-3- Displays the data categorically in a CSV file
+- Scrapes the [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
+- Collects the latest data on the Covid-19 death toll
+- Displays the data categorically in a CSV file
 
 ## Built With
 
@@ -19,9 +19,9 @@ This project includes the following features:
 
 ## Getting Started
 
-1- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git)
-2- cd into the project directory
-3- Run bundle install to install the mentioned gems (nokogiri,csv,open-uri)
+- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git)
+- cd into the project directory
+- Run bundle install to install the mentioned gems (nokogiri,csv,open-uri)
 
 ## Author
 
