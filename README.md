@@ -21,7 +21,8 @@ This project includes the following features:
 
 - Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git)
 - cd into the project directory
-- Run bundle install to install the mentioned gems (nokogiri,csv,open-uri)
+- Install the mentioned gems (nokogiri,csv,open-uri)
+- Open the terminal, cd into the project directory and run the command (ruby bin/main.rb)
 
 ## Author
 
