@@ -1,12 +1,12 @@
 # Data Scraper
 A website scraper which collects data regarding the latest data on COvid-19 deaths, from the website
-https://www.worldometers.info/coronavirus/coronavirus-death-toll/ and saves it in a csv file.
+[Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) and saves it in a csv file.
 Built for the Ruby Capstone project in the Microverse curriculum.
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 This project includes the following features:
 
-1- Scrapes the ![Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
+1- Scrapes the [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
 2- Collects the latest data on the Covid-19 death toll
 3- Displays the data categorically in a CSV file
 
