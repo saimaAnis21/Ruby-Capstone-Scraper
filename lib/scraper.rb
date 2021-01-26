@@ -4,7 +4,7 @@ class Scraper
   def initialize
     @url = 'https://www.worldometers.info/coronavirus/coronavirus-death-toll/'
     @arr = []
-    @record_hash = {}    
+    @record_hash = {}
   end
 
   def scrape_data(days)
@@ -19,7 +19,6 @@ class Scraper
       }
       arr.push(record_hash)
     end
-
     arr
   end
 end
