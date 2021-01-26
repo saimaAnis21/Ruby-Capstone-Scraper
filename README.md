@@ -1,4 +1,4 @@
-# Data Scraper
+# Covid-19 Latest Stats Scraper
 A website scraper which collects data regarding the latest data on COvid-19 deaths, from the website
 [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) and saves it in a csv file.
 Built for the Ruby Capstone project in the Microverse curriculum.
