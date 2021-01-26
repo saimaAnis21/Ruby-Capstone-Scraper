@@ -11,8 +11,8 @@ class Scraper
         @doc = Nokogiri::HTML(html)
     end
         
-  def write_csv
-    (0..19).each do |i|
+  def scrape_data(days)
+    (0..days-1).each do |i|
             record_hash = {
                 "Date" => doc.css("table.table-list > tbody > tr")[i].css("td")[0].text.strip.split("\n"),
                 "Total-Deaths" => doc.css("table.table-list > tbody > tr")[i].css("td")[1].text,
@@ -21,14 +21,8 @@ class Scraper
             }
             arr.push(record_hash)
         end
-        headers = arr[0].keys
-        CSV.open('bin/data.csv', "w") do |csv|
-                csv << headers
-                arr.each do |rec|
-                    csv << rec.values
-                  end
-                
-            end
+        
+        return arr
         
   end
 
