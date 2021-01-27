@@ -27,7 +27,10 @@ This project includes the following features:
 - The program will ask you to input the past no. of days for which you need the data.
 - It will then pull your required data into a csv file, found inside the bin folder of your project directory.
 - You can use the data.csv file and easily convert it to an excel file and use it as a data source for making charts.
--![win](ruby-shot-2.jpg)
+
+
+
+![win](ruby-shot-2.jpg)
 
 
 
