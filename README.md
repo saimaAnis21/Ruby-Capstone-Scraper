@@ -19,7 +19,7 @@ This project includes the following features:
 
 ## Getting Started
 
-- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git <local-location-path>). The project folder will appear on the mentioned path.
+- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git local-location-path). The project folder will appear on the mentioned path.
 - Install the above mentioned gems by opening the Terminal on your desktop and running the following   commands.
   - gem install nokogiri
   - gem install csv  
@@ -49,9 +49,11 @@ This project includes the following features:
 - LinkedIn: [Saima Anis](https://www.linkedin.com/in/saima-anis-3a07921b2/)
 
 
-## 🤝 Contributing
+## 🤝 Acknowledgements
 
-Contributions, issues, and feature requests are welcome!
+- [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
+- [Nokogiri](https://github.com/sparklemotion/nokogiri)
+- Expectation Matchers picked from [here] (https://gist.github.com/hpjaj/ef5ba70a938a963332d0)
 
 
 ## Show your support
