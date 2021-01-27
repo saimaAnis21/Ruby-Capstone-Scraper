@@ -19,6 +19,10 @@ describe Scraper do
       expect(scrpr.scrape_data(2)).to be_an(Array)
     end
 
+    it 'should not return nil' do
+      expect(scrpr.scrape_data(2).nil?).not_to be_truthy  
+    end
+
     it 'should return an array of hashes' do
       arr = scrpr.scrape_data(2)
 
@@ -27,7 +31,7 @@ describe Scraper do
       end
     end
 
-    it 'An item of the array should has the Date hash key' do
+    it 'An item of the array should have the Date hash key' do
       arr = scrpr.scrape_data(2)
 
       (0..arr.length - 1).each do |i|
@@ -35,7 +39,7 @@ describe Scraper do
       end
     end
 
-    it 'An item of the array should has the Total-Deaths hash key' do
+    it 'An item of the array should have the Total-Deaths hash key' do
       arr = scrpr.scrape_data(2)
 
       (0..arr.length - 1).each do |i|
@@ -43,7 +47,7 @@ describe Scraper do
       end
     end
 
-    it 'An item of the array should has the New-Deaths hash key' do
+    it 'An item of the array should have the New-Deaths hash key' do
       arr = scrpr.scrape_data(2)
 
       (0..arr.length - 1).each do |i|
@@ -51,7 +55,7 @@ describe Scraper do
       end
     end
 
-    it 'An item of the array should has the Percent-Change hash key' do
+    it 'An item of the array should have the Percent-Change hash key' do
       arr = scrpr.scrape_data(2)
 
       (0..arr.length - 1).each do |i|
