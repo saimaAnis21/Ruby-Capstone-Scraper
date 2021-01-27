@@ -37,13 +37,7 @@ This project includes the following features:
 
 - You can use the data.csv file and easily convert it to an excel file and use it as a data source for making charts.
 
-
-
-
-
-
-
-
+![win](ruby-shot-5.jpg)
 
 
 ## Author
