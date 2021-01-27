@@ -32,6 +32,9 @@ This project includes the following features:
 ![win](ruby-shot-3.jpg)
 
 - It will then pull your required data into a csv file, found inside the bin folder of your project directory.
+
+![win](ruby-shot-4.jpg)
+
 - You can use the data.csv file and easily convert it to an excel file and use it as a data source for making charts.
 
 
