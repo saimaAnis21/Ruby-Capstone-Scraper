@@ -53,7 +53,7 @@ This project includes the following features:
 
 - [Worldometer](https://www.worldometers.info/coronavirus/coronavirus-death-toll/) Website
 - [Nokogiri](https://github.com/sparklemotion/nokogiri)
-- Expectation Matchers picked from [here] (https://gist.github.com/hpjaj/ef5ba70a938a963332d0)
+- Expectation Matchers picked from [here](https://gist.github.com/hpjaj/ef5ba70a938a963332d0)
 
 
 ## Show your support
