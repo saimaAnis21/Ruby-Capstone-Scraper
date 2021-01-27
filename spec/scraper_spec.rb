@@ -20,7 +20,7 @@ describe Scraper do
     end
 
     it 'should not return nil' do
-      expect(scrpr.scrape_data(2).nil?).not_to be_truthy  
+      expect(scrpr.scrape_data(2).nil?).not_to be_truthy
     end
 
     it 'should return an array of hashes' do
