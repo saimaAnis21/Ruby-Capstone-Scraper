@@ -15,14 +15,18 @@ This project includes the following features:
 ![Ruby](https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-horizontal.svg)
 - Visual Studio Code
 - Tested with Rspec
-- Gems used: nokogiri, csv, open-uri
+- Gems used: nokogiri, csv
 
 ## Getting Started
 
-- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git)
-- cd into the project directory
-- Install the mentioned gems (nokogiri,csv,open-uri)
+- Clone the project to your local machine (Using git clone https://github.com/saimaAnis21/Ruby-Capstone-Scraper.git <local-location-path>). The project folder will appear on the mentioned path.
+- Install the above mentioned gems by opening the Terminal on your desktop and running the following   commands.
+  - gem install nokogiri
+  - gem install csv  
 - Open the terminal, cd into the project directory and run the command (ruby bin/main.rb)
+- The program will ask you to input the past no. of days for which you need the data.
+- It will then pull your required data into a csv file, found inside the bin folder of your project directory.
+- You can use the data.csv file and easily convert it to an excel file and use it as a data source for making charts.
 
 ## Author
 
