@@ -8,8 +8,7 @@ class Scraper
   end
 
   def scrape_data(days)
-    @html = URI.open(url)
-    @doc = Nokogiri::HTML(html)
+    set_parser
     (0..days - 1).each do |i|
       record_hash = {
         'Date' => doc.css('table.table-list > tbody > tr')[i].css('td')[0].text.strip.split("\n"),
@@ -20,5 +19,12 @@ class Scraper
       arr.push(record_hash)
     end
     arr
+  end
+
+  private
+
+  def set_parser
+    @html = URI.open(url)
+    @doc = Nokogiri::HTML(html)
   end
 end
